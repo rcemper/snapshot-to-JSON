@@ -4,7 +4,7 @@
     <Module>
       <Name>json-snapshot</Name>
       <Version>1.0.0</Version>
-      <Description>Multi-Line in Terminal Command</Description>
+      <Description>Use %JSON.Adaptor for object snapshot</Description>
       <Keywords>JSON, OBJ, COS</Keywords>
       <Packaging>module</Packaging>
       <SourcesRoot>src</SourcesRoot>
