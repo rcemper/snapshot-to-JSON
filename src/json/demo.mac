@@ -1,4 +1,4 @@
-;;; demo script 
+#;;; demo script 
 write ##class(json.Person).Populate(5)  
   
 zwrite ^json.PersonD  
@@ -12,4 +12,4 @@ set sc=obj.%JSONExportToString(.snap1) zw sc
 set obj.DOB=$H-3000  
   
 set sc=obj.%JSONExportToString(.snap2) zwrite  
-;  
+#;  
