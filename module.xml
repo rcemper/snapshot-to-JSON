@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Export generator="Cache" version="25">
-  <Document name="terminal-multiline.ZPM">
+  <Document name="json-snapshot.ZPM">
     <Module>
-      <Name>terminal-multiline</Name>
-      <Version>1.0.1</Version>
+      <Name>json-snapshot</Name>
+      <Version>1.0.0</Version>
       <Description>Multi-Line in Terminal Command</Description>
-      <Keywords>Terminal, COS</Keywords>
+      <Keywords>JSON, OBJ, COS</Keywords>
       <Packaging>module</Packaging>
       <SourcesRoot>src</SourcesRoot>
-       <Resource Name="%zml.MAC"/>
+       <Resource Name="json.PKG"/>
     </Module>
   </Document>
 </Export>
