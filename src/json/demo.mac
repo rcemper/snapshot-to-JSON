@@ -1,0 +1,15 @@
+;;; demo script 
+write ##class(json.Person).Populate(5)  
+  
+zwrite ^json.PersonD  
+  
+set obj=##class(json.Person).%OpenId(3)  
+  
+zwrite obj  
+  
+set sc=obj.%JSONExportToString(.snap1) zw sc  
+  
+set obj.DOB=$H-3000  
+  
+set sc=obj.%JSONExportToString(.snap2) zwrite  
+;  
