@@ -3,7 +3,7 @@
   <Document name="json-snapshot.ZPM">
     <Module>
       <Name>json-snapshot</Name>
-      <Version>1.0.0</Version>
+      <Version>1.0.1</Version>
       <Description>Use %JSON.Adaptor for object snapshot</Description>
       <Keywords>JSON, OBJ, COS</Keywords>
       <Packaging>module</Packaging>
