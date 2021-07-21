@@ -24,5 +24,33 @@ Property Home As Address;
 
 /// A collection of strings representing the person's favorite colors.
 Property FavoriteColors As list Of %String(POPSPEC = "ValueList("",Red,Orange,Yellow,Green,Blue,Purple,Black,White""):2");
- 
+
+Storage Default
+{
+<Data name="PersonDefaultData">
+<Value name="1">
+<Value>Name</Value>
+</Value>
+<Value name="2">
+<Value>SSN</Value>
+</Value>
+<Value name="3">
+<Value>DOB</Value>
+</Value>
+<Value name="4">
+<Value>Home</Value>
+</Value>
+<Value name="5">
+<Value>FavoriteColors</Value>
+</Value>
+</Data>
+<DataLocation>^json.PersonD</DataLocation>
+<DefaultData>PersonDefaultData</DefaultData>
+<IdLocation>^json.PersonD</IdLocation>
+<IndexLocation>^json.PersonI</IndexLocation>
+<StreamLocation>^json.PersonS</StreamLocation>
+<Type>%Storage.Persistent</Type>
 }
+
+}
+
