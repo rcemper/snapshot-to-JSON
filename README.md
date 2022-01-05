@@ -1,8 +1,3 @@
- ~~~
- This is a coding example working on IRIS 2020.2
- It will not be kept in sync with new versions      
- It is also NOT serviced by InterSystems Support !   
-~~~ 
 This is a sample to use %JSON.Adaptor class available in IRIS
 to produce a snapshot of your object.
 
