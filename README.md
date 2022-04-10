@@ -13,4 +13,12 @@ And see the difference.
 
 BINGO!
 
-[Article in DC](https://community.intersystems.com/post/snapshot-json)
+[Article in DC](https://community.intersystems.com/post/snapshot-json)     
+
+[Demo Server SMP](https://json-snapshot.demo.community.intersystems.com/csp/sys/UtilHome.csp)   
+[Demo Server WebTerminal](https://json-snapshot.demo.community.intersystems.com/terminal/)    
+        
+**Code Quality**   
+<img width="85%" src="
+https://openexchange.intersystems.com/mp/img/packages/671/screenshots/4bh7tyapellnv0cjgw34riapcfo.jpg
+">
