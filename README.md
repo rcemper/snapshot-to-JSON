@@ -13,5 +13,6 @@ And see the difference.
 
 BINGO!
 
+
 [Article in DC](https://community.intersystems.com/post/snapshot-json)     
 
