@@ -2,17 +2,17 @@ ROUTINE demo
 #;;; demo script 
   write ##class(json.Person).Populate(5)  
   
-  zwrite ^json.PersonD  
-  
   set obj=##class(json.Person).%OpenId(3)  
-  
   zwrite obj  
-  
-  set sc=obj.%JSONExportToString(.snap1) zw sc  
-  
+  write !
+  set sc=obj.%JSONExportToString(.snap1) 
+  zwrite snap3  
   set obj.DOB=$H-3000  
-  
-  set sc=obj.%JSONExportToString(.snap2) zwrite  
+  set sc=obj.%JSONExportToString(.snap2) 
+  zwrite snap2
+  write "###############",!	
+  write $$Do^ZPretty(snap1),!!
+  write $$Do^ZPretty(snap2)
   
   quit
 #;  
