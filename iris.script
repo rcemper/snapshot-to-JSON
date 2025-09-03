@@ -1,0 +1,10 @@
+zn "%SYS"
+do ##class(Security.Users).UnExpireUserPasswords("*")
+zpm "install passwordless"
+zpm "install iterm"
+zn "USER"
+zpm "install pretty-json-upd"
+zpm "load /opt/irisbuild -v ":1
+zpm "list"
+halt
+
