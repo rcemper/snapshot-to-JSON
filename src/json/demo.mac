@@ -1,6 +1,6 @@
 ROUTINE demo
 #;;; demo script 
-  write ##class(json.Person).Populate(5)  
+  do ##class(json.Person).Populate(5)  
   
   set obj=##class(json.Person).%OpenId(3)  
   zwrite obj  
