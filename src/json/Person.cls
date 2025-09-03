@@ -25,6 +25,8 @@ Property Home As Address;
 /// A collection of strings representing the person's favorite colors.
 Property FavoriteColors As list Of %String(POPSPEC = "ValueList("",Red,Orange,Yellow,Green,Blue,Purple,Black,White""):2");
 
+Property MyId As %Integer [ Calculated, SqlComputeCode = { set {*}={%%ID}}, SqlComputed ];
+
 Storage Default
 {
 <Data name="PersonDefaultData">
